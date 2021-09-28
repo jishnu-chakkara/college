@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(70, 11, 41, 0.61),rgba(11, 68, 70, 0.61)), url(banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+nav img{
+    width: 250px;
+    text-align: start;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+.nav-links ul li a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #0a2351;
+    margin: auto;
+    display: block;
+    transition: 0.5s;
+}
+.nav-links ul li a:hover::after{
+    width: 100%;
+
+
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.my-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    
+    
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+}
+.text-box h1{
+    font-size: 40px;
+}
+.my-btn:hover{
+    border: 1px solid #fff;
+    background: #0a2351;
+
+}
+/*----------------course---------------*/
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+    h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        padding: 10px;
+        color: #777;
+    }
+    .course-col{
+        font-size: small;
+    }
+    .row{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .course-col{
+        flex-basis: 31%;
+        background: #fff3f3;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        box-sizing: border-box;
+        padding: 20px 12px;
+        transition: 0.5s;
+    }
+    h3{
+        text-align: center;
+        font-weight: 600;
+        margin: 10px 0;
+    }
+    .course-co:hover{
+        box-shadow:  0 0 20px 0px rgba(0,0,0,0.2);
+    }
+    .facilities{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 100px;
+    }
+    .facilities-col{
+        flex-basis: 31%;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        text-align: left;
+    }
+    .facilities-col img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .facilities-col p {
+        padding: 0;
+
+    }
+    .facilities-col h3{
+        margin-top: 16px;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+    .cta{
+        margin:100px auto ;
+        width: 80%;
+        background-image: linear-gradient(rgba(15, 26, 122, 0.61),rgba(11, 68, 70, 0.61)), url(banner2.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        text-align: center;
+        padding: 100px 0;
+
+    }
+    .cta h1{
+        color: white;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+    .footer{
+        width: 100%;
+        text-align: center;
+        padding: 30px 0;
+
+
+    }
+    .footer h4 {
+        margin-bottom: 25px;
+        margin-top: 20px;
+        font-weight: 600;
+        
+    }
+    /*-----------------------about us--------------*/
+    .sub-header{
+        height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(70, 11, 41, 0.61),rgba(11, 68, 70, 0.61)), url(background.jpg);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        color: white;
+    }
+    .sub-header h1{
+        margin-top: 100px;
+    }
+    .about{
+        width: 80%;
+        margin: auto;
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .about-col{
+        flex-basis: 48%;
+        padding: 30px 2px;
+    }
+    .about-col img{
+        width: 100%;
+    }
+    .about-col h1{
+        padding-top: 0;
+
+    }
+    .about-col p{
+        padding: 15px 0 25px;
+    }
+    .abt-btn{
+        border: 1px solid #0a2351; ;
+        background: transparent;
+        color: #0a2351 ;
+    }
+    .abt-btn:hover{
+        color: white;
+    }
+    /*------------blog--------------------*/
+    .blog{
+        width: 80%;
+        margin: auto;
+        padding: 60px 0;
+
+    }
+    .blogleft{
+        flex-basis: 65%;
+
+    }
+    .blogleft img{
+        width: 100%;
+    }   
+    .blogleft h2{
+        color: #222;
+        font-weight: 600;
+        margin: 30px 0;
+    }
+    .blogleft p{
+        color: #999;
+        padding: 0;
+    }
+    .blogright{
+        flex-basis: 32%;
+    }
+    .blogright h3{
+        background:#0a2351;
+        color: #fff;
+        padding: 7px 0;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .blogright div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #555;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+    .cmd-box{
+        border: 1px solid #ccc;
+        margin: 50px 0;
+        padding: 10px 20px;
+    }
+    .cmd-box h3 {
+        text-align: left;
+    }
+    .cmd-form input,.cmd-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 15px 0;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        background: #f0f0f0;
+    }
+    .cmd-form button{
+        margin: 10px 0;
+    }
+    /*----------------------condact page------------------*/
+    .location{
+        width: 80%;
+        margin: auto;
+        padding: 80px 0;
+
+
+    }
+    .location iframe{
+        width: 100%;
+
+    }
+    .contact-us{
+        width: 80%;
+        margin: auto;
+    }
+    
+    
+    .contact-us  div img{
+       
+        font-size: 28px;
+        margin: 10px;
+        margin-right: 30px;
+    }
+    .contact-us img{
+        margin-right: 30px;
+        margin: 10px;
+        color: #0a2351;
+    }
+    .contact-us p {
+        padding: 0;
+    }
+    .contact-us div h5 {
+        font-size: 20px;
+        margin-bottom: 5px;
+        color: black;
+        font-weight: 400;
+    }
